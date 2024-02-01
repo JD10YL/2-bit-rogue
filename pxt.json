@@ -1,0 +1,38 @@
+{
+    "name": "2-BIT ROGUE",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.3.1",
+        "pxt-heap": "github:jwunderl/pxt-heap#v0.0.11",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.0.10"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.41",
+        "tag": "v1.12.41",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/58673437825ecb93a220c8f58a6f9bb5693896ba",
+        "target": "1.12.46",
+        "pxt": "8.5.52",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
